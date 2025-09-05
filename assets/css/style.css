@@ -1,0 +1,80 @@
+:root {
+  --teal-primary: #83bdc0;
+  --teal-dark: #549bad;
+  --pink-bg: #f7c9b6;
+  --main-bg: #f0e1de;
+  --text-dark: #333;
+  --text-muted: #6c757d;
+  --purple-accent: #9c27b0;
+}
+
+body {
+  background-color: var(--main-bg);
+  font-family: "poppins";
+  color: var(--text-dark);
+}
+.btn-outline-teal {
+  border: 2px solid var(--teal-primary);
+  color: var(--text-dark);
+  background:white;
+  border-radius: 25px;
+  padding: 8px 20px;
+  font-weight: 500;
+}
+
+.btn-outline-teal:hover {
+  background-color: var(--teal-primary);
+  border-color: var(--teal-primary);
+  color: white;
+}
+
+.btn-teal {
+  background-color: var(--teal-primary);
+  border-color: var(--teal-primary);
+  color: white;
+  border-radius: 25px;
+  padding: 12px 30px;
+  font-weight: 500;
+}
+
+.btn-teal:hover {
+  background-color: var(--teal-dark);
+  border-color: var(--teal-dark);
+  color: white;
+}
+.text-teal {
+  color: var(--teal-primary) !important;
+}
+
+.text-purple {
+  color: var(--purple-accent) !important;
+}
+
+.custom-navbar {
+  background-color: var(--pink-bg);
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: var(--text-dark) !important;
+}
+
+.brand-highlight {
+  color: var(--teal-primary);
+   height: 50px;
+
+}
+
+.nav-link {
+  color: var(--text-dark) !important;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: var(--teal-primary) !important;
+}
+
