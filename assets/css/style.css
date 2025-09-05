@@ -1,0 +1,77 @@
+:root {
+  --teal-primary: #83bdc0;
+  --teal-dark: #549bad;
+  --pink-bg: #f7c9b6;
+  --main-bg: #f0e1de;
+  --text-dark: #333;
+  --text-muted: #6c757d;
+  --purple-accent: #9c27b0;
+}
+
+body {
+  background-color: var(--main-bg);
+  font-family: "poppins";
+  color: var(--text-dark);
+}
+.footer-section {
+  background-color: var(--main-bg);
+  padding-top: 40px;
+}
+
+.footer-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--text-dark);
+}
+
+.footer-section h6 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-section ul li a:hover {
+  color: var(--teal-primary);
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  display: inline-block;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-right: 10px;
+}
+.last-footer {
+  background-color: var(--pink-bg);
+}
+.last-left-footer {
+  font-size: 10px;
+}
+.last-right-footer a {
+  text-decoration: none;
+  color: var(--text-dark);
+   font-size: 12px;
+}
+.list{
+     min-height:300px;
+}
+.footer-img img{
+     height: 20px;
+}
+h5 img{
+     height: 40px;
+}
